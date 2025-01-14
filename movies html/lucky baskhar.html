@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lucky baskhar</title>
+    <link rel="stylesheet" href="/movies css/lucky baskhar.css">
+    <link rel="shortcut icon" href="/svgs/icon.svg" type="image/x-icon">
+</head>
+<body>
+    <header class="header1">
+        <div class="navbar">
+            <div class="logo">
+                <img src="/images/spo.png" alt="Spotify Logo">
+            </div>
+            <div class="homelogo">
+                <img src="/svgs/home.svg" alt="Home">
+            </div>
+            <div class="search-bar">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-search" viewBox="0 0 16 16">
+                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                  </svg><input type="text" placeholder="What do you want to play?">
+            </div>
+            <div class="icons">
+                <div class="icon">
+                    <img src="/svgs/install.svg" alt="Install App">
+                </div>
+                <div class="icon">
+                    <img src="/svgs/notification.svg" alt="Notifications">
+                </div>
+                <div class="profile">S</div>
+            </div>
+        </div>
+    </header>
+    <div class="main">
+        <div class="playlist-header">
+            <img src="/images/lucky baskhar.jpeg" alt="Playlist Cover">
+            <div>
+                <p>Public Playlist</p>
+                <h1>lucky baskhar (Telugu)</h1>
+                <p> 7 songs, 21min 4sec</p>
+            </div>
+        </div>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Title</th>
+                    <th>Album</th>
+                    <th>Duration</th>
+                    <th>Play</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="song" data-src="songs/1_r.mp3">
+                    <td>1</td>
+                    <td>Lucky Baskhar</td>
+                    <td>lucky baskhar</td>
+                    <td>3:42</td>
+                    <td><img src="/svgs/play.svg" alt="" class="play-btn"></td>
+                </tr>
+                <tr class="song" data-src="songs/2_r.mp3">
+                    <td>2</td>
+                    <td>Nijamaa kalaa</td>
+                    <td>lucky baskhar</td>
+                    <td>3:20</td>
+                    <td><img src="/svgs/play.svg" alt="" class="play-btn"></td>
+                </tr>
+                <tr class="song" data-src="songs/3_r.mp3">
+                    <td>3</td>
+                    <td>Srimathi Gaaru</td>
+                    <td>lucky baskhar</td>
+                    <td>3:55</td>
+                    <td><img src="/svgs/play.svg" alt="" class="play-btn"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <footer>
+        <div class="player">
+            <div class="icons">
+                <img src="/svgs/shuffle.svg" alt="backward" id="shuffle">
+                <img src="/svgs/backward.svg" alt="backward" id="previous">
+                <img src="/svgs/play.svg" alt="play" id="masterPlay">
+                <img src="/svgs/forward.svg" alt="forward" id="next">
+                <img src="/svgs/repeat.svg" alt="forward" id="repeat">
+            </div>
+            <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+            <div class="songInfo">
+                <img src="/svgs/playing.gif" width="42px" alt="" id="gif">
+                <div class="current-song-name"></div>
+            </div> 
+        </div>
+    </footer>
+    <script src="/movies js/lucky baskhar.js"></script>
+</body>
+</html>
